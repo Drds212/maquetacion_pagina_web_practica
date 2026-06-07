@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto</title>
+    <link
+      rel="stylesheet"
+      href="assets/css/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <script type="module" src="assets/js/main.js"></script>
+  </head>
+  <body>
+    <div class="layout">
+      <header class="layout__header">
+        <div class="header__logo">
+          <h1 class="logo__text">Proyecto</h1>
+        </div>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="list__item">
+              <a href="index.html" class="nav__link">Inicio</a>
+            </li>
+
+            <li class="list__item">
+              <a href="index.html" class="nav__link">Reloj</a>
+            </li>
+
+            <li class="list__item">
+              <a href="index.html" class="nav__link">Sobre mi</a>
+            </li>
+
+            <li class="list__item">
+              <a href="index.html" class="nav__link">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="layout__slider">
+        <button class="slider__btn-prev">
+          <i class="fa-solid fa-caret-left"></i>
+        </button>
+
+        <div class="slider__slides">
+          <div class="slide__item slide__item--active">
+            <img class="slides__img" src="assets/img/hojas.jpg" alt="hojas" />
+          </div>
+
+          <div class="slide__item slide__item">
+            <img class="slides__img" src="assets/img/cielo.jpg" alt="hojas" />
+          </div>
+
+          <div class="slide__item slide__item">
+            <img class="slides__img" src="assets/img/rojo.jpg" alt="hojas" />
+          </div>
+        </div>
+
+        <button class="slider__btn-prev">
+          <i class="fa-solid fa-caret-right"></i>
+        </button>
+      </section>
+
+      <main class="layout__articles">
+        <article class="articles__aticle">
+          <h3 class="article__title">Articulo de prueba 1</h3>
+          <span class="article__date">7/6/206</span>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            dicta recusandae harum ab, aspernatur ad nemo corrupti maxime
+            ducimus error magnam exercitationem officiis et temporibus aliquam.
+            Est mollitia perspiciatis consequatur.
+          </p>
+
+          <button class="article__btn">Leer más</button>
+        </article>
+
+        <article class="articles__aticle">
+          <h3 class="article__title">Articulo de prueba 2</h3>
+          <span class="article__date">7/6/206</span>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            dicta recusandae harum ab, aspernatur ad nemo corrupti maxime
+            ducimus error magnam exercitationem officiis et temporibus aliquam.
+            Est mollitia perspiciatis consequatur.
+          </p>
+
+          <button class="article__btn">Leer más</button>
+        </article>
+
+        <article class="articles__aticle">
+          <h3 class="article__title">Articulo de prueba 3</h3>
+          <span class="article__date">7/6/206</span>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            dicta recusandae harum ab, aspernatur ad nemo corrupti maxime
+            ducimus error magnam exercitationem officiis et temporibus aliquam.
+            Est mollitia perspiciatis consequatur.
+          </p>
+
+          <button class="article__btn">Leer más</button>
+        </article>
+
+        <article class="articles__aticle">
+          <h3 class="article__title">Articulo de prueba 4</h3>
+          <span class="article__date">7/6/206</span>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            dicta recusandae harum ab, aspernatur ad nemo corrupti maxime
+            ducimus error magnam exercitationem officiis et temporibus aliquam.
+            Est mollitia perspiciatis consequatur.
+          </p>
+
+          <button class="article__btn">Leer más</button>
+        </article>
+      </main>
+
+      <aside class="layout__aside">
+        <header class="aside__header">
+          <div class="header__container-title">
+            <h3 class="header__title">
+              <span class="title__span">Quien soy?</span>
+            </h3>
+
+            <div class="header__container-img">
+              <img
+                class="header__img"
+                src="assets/img/caracol.jpg"
+                alt="caracol"
+              />
+            </div>
+
+            <p class="header__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              modi expedita voluptas sunt inventore sapiente velit! Tempore
+              nesciunt corrupti impedit voluptatum ipsa accusantium mollitia
+              nulla! Praesentium aperiam cupiditate culpa animi.
+            </p>
+          </div>
+        </header>
+
+        <form action="" class="aside__login">
+          <div class="login__container-title">
+            <h3 class="login__title"></h3>
+          </div>
+
+          <div class="login__form-group">
+            <label class="login__label" for="name">Nombre:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="login__input"
+              required
+            />
+          </div>
+
+          <div class="login__form-group">
+            <label class="login__label" for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="login__input"
+              required
+            />
+          </div>
+
+          <div class="login__form-group">
+            <label class="login__label" for="pass">Contraseña:</label>
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              class="login__input"
+              required
+            />
+          </div>
+
+          <input type="button" value="entrar" class="login__submit" />
+        </form>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <p class="footer__text">Todos los derechos reservados a mi XD</p>
+    </footer>
+
+    <div class="themes">
+      <div class="theme__green"></div>
+      <div class="theme__red"></div>
+      <div class="theme__blue"></div>
+    </div>
+  </body>
+</html>
